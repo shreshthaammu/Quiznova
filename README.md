@@ -1,11 +1,38 @@
-<div align="center">
+# Quiznovaa
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Quiznovaa is a React + Vite quiz application with login, protected routes, admin pages, practice flows, leaderboard views, notes, and AI-assisted study features.
 
-  <h1>Built with AI Studio</h2>
+## Run locally
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+npm install
+npm run dev
+```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Build
 
-</div>
+```bash
+npm run build
+```
+
+## Scripts
+
+- `npm run dev` starts the Vite development server
+- `npm run build` creates a production build
+- `npm run preview` previews the production build locally
+- `npm run lint` runs ESLint
+
+## Main routes
+
+- `/login`
+- `/signup`
+- `/dashboard`
+- `/subjects`
+- `/quiz`
+- `/result`
+- `/leaderboard`
+- `/practice`
+- `/ai`
+- `/notes`
+- `/account`
+- `/admin`
